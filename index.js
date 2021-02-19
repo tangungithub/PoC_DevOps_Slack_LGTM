@@ -30,7 +30,7 @@ server(
       return render("index.pug", { zen: ctx.zen });
     }
   ]),
-  // 404s
+  // 404s test 20210219
   get(ctx => {
     log404(ctx);
     return status(404);
@@ -42,3 +42,5 @@ server(
     ctx.options.port
   }/}`);
 });
+
+//test
